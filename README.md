@@ -16,6 +16,9 @@ git clone git@github.com:Kuruyia/zdotdir.git ~/.config/zsh
 
 Change the `ZDOTDIR` in the `~/.zshenv` file:
 
+> [!WARNING]  
+> This will overwrite your current `~/.zshenv` file. If needed, backup it somewhere else first.
+
 ```sh
 cat << 'EOF' >| ~/.zshenv
 export ZDOTDIR="$HOME/.config/zsh"
@@ -28,13 +31,13 @@ Some tools need to be installed for this configuration to work properly.
 On macOS:
 
 ```sh
-$ brew install starship curlie bat eza
+brew install starship curlie bat eza
 ```
 
 On Arch Linux:
 
 ```sh
-# pacman -S starship curlie bat eza
+pacman -S starship curlie bat eza
 ```
 
 # Update
@@ -42,7 +45,7 @@ On Arch Linux:
 To update Antidote and its plugins, run:
 
 ```sh
-$ antidote update
+antidote update
 ```
 
 # Plugins
