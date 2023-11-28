@@ -29,6 +29,3 @@ path=(
 )
 
 # vim: ft=zsh sw=2 ts=2 et
-
-# Added by OrbStack: command-line tools and integration
-source ~/.orbstack/shell/init.zsh 2>/dev/null || :

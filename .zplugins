@@ -15,6 +15,7 @@ mattmc3/zephyr path:plugins/homebrew conditional:is-macos
 # Custom plugins
 $ZDOTDIR/plugins/nvm kind:defer
 $ZDOTDIR/plugins/fzf kind:defer
+$ZDOTDIR/plugins/orbstack
 $ZDOTDIR/plugins/cargo
 
 # Completions
