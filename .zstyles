@@ -18,9 +18,5 @@ zstyle ':zephyr:plugin:prompt' theme starship starship
 zstyle ':zephyr:plugin:history' histfile "${ZDOTDIR:=$HOME}/.zsh_history"
 zstyle ':zephyr:plugin:history' histsize 20000
 zstyle ':zephyr:plugin:history' savehist 20000
-zstyle ':zephyr:plugin:terminal' auto-title 'yes'
-zstyle ':zephyr:plugin:terminal:window-title' format '%n@%m: %s'
-zstyle ':zephyr:plugin:terminal:tab-title' format '%m: %s'
-zstyle ':zephyr:plugin:terminal:multiplexer-title' format '%s'
 
 # vim: ft=zsh sw=2 ts=2 et

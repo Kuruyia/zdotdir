@@ -50,7 +50,6 @@ antidote update
 
 # Plugins
 - [Zephyr - Small Zsh framework](https://github.com/mattmc3/zephyr)
-    - **clipboard** - System clipboard integration
     - **color** - Make terminal things more colorful
     - **completion** - Load and initialize the built-in zsh completion system
     - **confd** - Source conf.d like Fish
@@ -59,7 +58,6 @@ antidote update
     - **history** - Load and initilize the built-in zsh history system
     - **homebrew** - Functionality for users of Homebrew
     - **prompt** - Load and initialize the build-in zsh prompt system
-    - **terminal** - Set terminal window and tab titles
     - **utility** - Common shell utilities, aimed at making cross platform work less painful
     - **zfunctions** - Lazy load functions dir like Fish
 - [zsh-completions - Additional completion definitions for Zsh](https://github.com/zsh-users/zsh-completions)
