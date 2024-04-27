@@ -15,6 +15,7 @@ $ZDOTDIR/plugins/nvm kind:defer
 $ZDOTDIR/plugins/fzf kind:defer
 $ZDOTDIR/plugins/orbstack
 $ZDOTDIR/plugins/cargo
+$ZDOTDIR/plugins/go
 
 # Completions
 zsh-users/zsh-completions kind:fpath path:src
