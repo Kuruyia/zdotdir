@@ -82,6 +82,7 @@ symbol = "ﳒ "
 
 [ruby]
 symbol = " "
+detect_variables = []
 
 [rust]
 symbol = " "
