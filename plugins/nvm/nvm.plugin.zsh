@@ -5,7 +5,7 @@
 NVM_SCRIPT_PATH="/usr/share/nvm/init-nvm.sh"
 [[ -s "$NVM_SCRIPT_PATH" ]] && source "$NVM_SCRIPT_PATH"
 
-NVM_DIR="$HOME/.nvm"
+NVM_DIR="$HOME/.config/nvm"
 
 if [[ -d "$NVM_DIR" ]]; then
   export NVM_DIR="$NVM_DIR"
